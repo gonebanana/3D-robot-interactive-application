@@ -14,26 +14,29 @@ PROJECT FILES:
   - TODO.txt
   - README.txt
 
-Start:
-  To use the project, python must be installed on the computer. The necessary dependencies are presented in the file requirements.txt , with their help, you can create a virtual environment for the project through virtualenv. To do this, you need to execute the following sequence of commands on the command line (Windows):
+### HowTo
+  To use the project, python must be installed. The necessary dependencies are presented in the file `requirements.txt`. Using it you can create a virtual environment for the project through the `virtualenv`. To do this, you need to execute the following sequence of commands in the command line (Windows):<br> 
+   ```
     >> pip install virtualenv (if virtualenv is not installed)
     >> cd <path to the project folder>
     >> virtualenv robot_env
-    >> robot_env\Scripts\activate <---- environment activation
+    >> robot_env\Scripts\activate
     (robot_env)>> pip install -r requirements.txt
-To run the application,  run run_app.py . For example, in an activated virtual environment, run
+   ```
+To run the application, run `run_app.py`. For example, in an activated virtual environment, run <br> 
+```
     (robot_env)>> python run_app.py
+```
 Similarly, you can run a file with tests TESTS.py .
-To exit the environment, use the command
-    (robot_env)>> deactivete <---- deactivating the environment
+To exit the environment, use the command <br> 
+```
+    (robot_env)>> deactivete
+```
 
-FILE DESCRIPTION:
+### Files Description:
   1. run_app.py - file to launch the application.
   2. TESTS.py - module with tests, executable.
-  3. robot_solution - python package implementing robot kinematics;
-    3.1. trajectory.py - module for creating a trajectory;
-    3.2. modeling - python sub-package that implements the basic mathematics of the model;
-    3.3. params - python-a sub-package containing static data;
+  3. robot_solution - python package implementing robot kinematics.
   4. buildings - a folder with auxiliary files for building the application.
   5. mplwidget.py - a module that embeds animation in the application window.
   6. requirements.txt - a list of dependencies for creating a virtual environment.
