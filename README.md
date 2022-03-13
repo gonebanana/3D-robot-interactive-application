@@ -4,7 +4,7 @@ Controlled motion of 6-axis robot with ability to solve both kinematic problems.
 
 The current project devoted to modeling the kinematics of a 6-axis robot and interactive visualization of its movement through the implementation of an application with a user interface and 3D animation.
 
-##PROJECT FILES:
+### Project files:
   - run_app.py
   - TESTS.py
   - robot_solution
