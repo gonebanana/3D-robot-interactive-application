@@ -4,7 +4,7 @@ Controlled motion of 6-axis robot with ability to solve both kinematic problems.
 
 The current project devoted to modeling the kinematics of a 6-axis robot and interactive visualization of its movement through the implementation of an application with a user interface and 3D animation.
 
-PROJECT FILES:
+##PROJECT FILES:
   - run_app.py
   - TESTS.py
   - robot_solution
@@ -15,7 +15,7 @@ PROJECT FILES:
   - README.txt
 
 ### HowTo
-  To use the project, python must be installed. The necessary dependencies are presented in the file `requirements.txt`. Using it you can create a virtual environment for the project through the `virtualenv`. To do this, you need to execute the following sequence of commands in the command line (Windows):<br> 
+  To use the project, python must be installed. The necessary dependencies are presented in the file `requirements.txt`. Using it you can create a virtual environment for the project through the `virtualenv`. To do this, you need to execute the following sequence of commands in the command line (Windows):<br>
    ```
     >> pip install virtualenv (if virtualenv is not installed)
     >> cd <path to the project folder>
@@ -23,12 +23,12 @@ PROJECT FILES:
     >> robot_env\Scripts\activate
     (robot_env)>> pip install -r requirements.txt
    ```
-To run the application, run `run_app.py`. For example, in an activated virtual environment, run <br> 
+To run the application, run `run_app.py`. For example, in an activated virtual environment, run <br>
 ```
     (robot_env)>> python run_app.py
 ```
 Similarly, you can run a file with tests TESTS.py .
-To exit the environment, use the command <br> 
+To exit the environment, use the command <br>
 ```
     (robot_env)>> deactivete
 ```
