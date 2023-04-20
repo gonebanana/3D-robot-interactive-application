@@ -1,6 +1,6 @@
 # 3D-robot-interactive-application
 
-<img src="images\robot_animation.jpg" width="700" height="300"> <br>
+<img src="images\robot_animation.jpg" width="850" height="400"> <br>
 <em>Shortcut of the animation with visualization of the initial, current states and intermediate trace. </em>
 
 ## Description
