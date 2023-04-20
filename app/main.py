@@ -9,3 +9,7 @@ def run_app():
     aw = AnimationWidget()
     aw.show()
     sys.exit(q_app.exec_())
+
+    
+if __name__ == '__main__':
+    run_app()
