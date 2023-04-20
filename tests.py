@@ -1,4 +1,5 @@
 """ Contains tests of different implementations. Look into the __main__ section. """
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -9,7 +10,7 @@ from robot_solution.modeling.solution import solve_straight, solve_forward
 from robot_solution.trajectory import get_trajectory, generate_random_track
 
 
-# robot_solution.modeling.solution.solve_straight
+# robot_solution.robot_solution.solution.solve_straight
 def test_solve_straight():
     """ Tests the straight solution. """
     print('This is test of straight solution.')
@@ -21,7 +22,7 @@ def test_solve_straight():
     print('Pose: \n', pose, '\n')
 
 
-# robot_solution.modeling.solution.solve_forward
+# robot_solution.robot_solution.solution.solve_forward
 def test_solve_forward():
     """ Tests the forward task solution. Variable pose could be changed"""
     print('This is test of forward solution.')
@@ -36,7 +37,7 @@ def test_solve_forward():
     print('Joint angles:', '\n', angles,'\n')
 
 
-# robot_solution.modeling.simulation.find_Trans_JointAngle_JointPos
+# robot_solution.robot_solution.simulation.find_Trans_JointAngle_JointPos
 def count_jointpose_by_angles():
     """ Tests transformation of joint angles to its positions. """
     print('This is test of count joint positions by given angles.')
