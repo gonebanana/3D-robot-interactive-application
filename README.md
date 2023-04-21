@@ -1,7 +1,7 @@
 # 3D-robot-interactive-application
 
 <img src="images\robot_animation.jpg" width="850" height="400"> <br>
-<em>Shortcut of the animation with visualization of the initial, current states and intermediate trace. </em>
+<em>Screenshot of the animation with visualization of the initial and current states and intermediate trace. </em>
 
 ## Description
 Controlled motion of 6-axis robot with the ability to solve both Direct and Reverse Kinematic Problems.
